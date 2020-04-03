@@ -1,0 +1,8 @@
+%compile_commands.json
+--target
+xtensa-esp32-elf
+%c -std=gnu99 -Og -Wall -Werror=all
+%h %hpp --include
+-Ilib/api
+-Ilib/platform
+-Ilib/wpc/include
