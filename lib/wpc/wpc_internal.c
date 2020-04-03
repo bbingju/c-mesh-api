@@ -95,7 +95,7 @@ static int send_request_locked(wpc_frame_t * request, wpc_frame_t * confirm, uin
     uint8_t buffer[MAX_FRAME_SIZE];
     wpc_frame_t * rec_confirm;
 
-    LOGD("Send_request LOCK \n");
+    LOGD("Send_request LOCK\n");
 
     // fill the frame id request
     request->frame_id = frame_id++;

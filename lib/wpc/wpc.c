@@ -4,7 +4,7 @@
  *
  */
 #define LOG_MODULE_NAME "wpc"
-#define MAX_LOG_LEVEL INFO_LOG_LEVEL
+#define MAX_LOG_LEVEL DEBUG_LOG_LEVEL
 #include "logger.h"
 #include <string.h>
 #include "csap.h"
